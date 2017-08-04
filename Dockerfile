@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie
+FROM node:latest
 MAINTAINER angelmpino87@yahoo.com
 
 ENV CHROME_PACKAGE="google-chrome-stable_current_amd64.deb"
